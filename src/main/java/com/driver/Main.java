@@ -9,7 +9,7 @@ public class Main {
 //        System.out.println(ob.name);
         // Error: :8:11 java: name has private access in com.driver.RWOnly
 
-        ob.setter(123);
-        System.out.println(ob.getter());
+        ob.setName("New Name");
+        System.out.println(ob.getName());
     }
 }
